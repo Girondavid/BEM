@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav {
+    background-color: rgb(0, 128, 78);
+    padding: 0 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.nav__logo {
+    height: 65px;
+}
+
+.nav__link {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+
+.block {
+    color: rgb(192, 240, 1);
+}
+
+.block__element {
+    color: inherit;
+}
+
+.block__element--modifier {
+    color: inherit;
+}
+
+
+.item {
+    color: inherit;
+}
+
+.item--modifier {
+    color: inherit;
+}
+
+.item__element {
+    color: inherit;
+}
+
+.item__element--modifier {
+    color: inherit;
+}
+
+.item__another-element {
+    color: inherit;
+}
+
+.galery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+}
+.galery-img{
+    width: 10vw;
+}
